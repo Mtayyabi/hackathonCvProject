@@ -1,0 +1,29 @@
+#number{
+
+}
+
+fieldset{
+    border: 2px solid red;
+}
+
+legend{
+    text-align: center;
+}
+
+textarea{
+    width: 1000px;
+    height: 50px;
+
+}
+
+*{
+    border-radius: 5px;
+    border: none;
+}
+
+
+#hideButton{
+    width: 100px;
+    background-color: rgb(202, 248, 233);
+    
+}

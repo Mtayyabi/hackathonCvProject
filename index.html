@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+
+    <form method="post" action="/form.html">
+        <fieldset>
+            <legend>personal Information</legend>
+
+            <label for="personName">Name:</label>
+            <input type="text" name="personName" id="name"><br> <br>
+
+            <label for="dob">D.O.B:</label>
+            <input type="text" name="dob" id="dob"><br> <br>
+
+
+            <label for="number">Phone Number:</label>
+            <input type="tel" name="number" id="number"> <br> <br>
+        
+
+            <label id="email" for="email">Email:</label>
+            <input type="email" name="email" id="email"> <br> <br>
+
+            <label id="dp" for="profilePicture"> Profile Picture:</label>
+            <input type="file" name="profilePicture">
+             <button  type="submit"> Upload </button>
+            
+
+
+        
+        </fieldset>
+
+        <fieldset>
+            <legend>Education</legend>
+
+            <label for="schoolName1">School Name</label><br>
+            <input type="text" id="schoolName1"><br>
+
+            <label for="passingYear1">Passing Year:</label><br>
+            <input type="text" id="passingYear1"><br>
+
+
+            <label for="education1"> Education:</label> <br>
+            <textarea name="education" id="education1" placeholder="Education"></textarea>
+
+            <br><br>
+
+            <label for="schoolName2">School Name</label> <br>
+            <input type="text" id="schoolName2"><br>
+
+            <label for="passingYear2">Passing Year:</label> <br>
+            <input type="text" id="passingYear2"><br>
+
+
+            <label for="education2"> Education:</label> <br>
+            <textarea name="education" id="education2" placeholder="Education"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Experience</legend>
+
+            <label for="exp">Experience</label><br>
+            <textarea name="exp" id="exp" placeholder="Enter your experience with company name"></textarea>
+        </fieldset>
+
+
+        <button id="hB" type="button">Hide</button>
+
+
+        <fieldset id="skillsHide" >
+            <legend>Skills</legend>
+
+            <label for="skills">Skills</label><br>
+            <textarea  name="skills" id="skills , skillsHide" placeholder="Enter your all skills"></textarea> <br> <br>
+
+            <label for="submitButton"></label>
+            <button type="submit" id="submitButton"> Submit </button>
+
+        </fieldset>
+    
+
+    </form>
+
+
+    <script src="app.js"> 
+    </script>
+</body>
+</html>
