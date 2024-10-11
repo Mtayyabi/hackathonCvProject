@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume Builder</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 <body>
+<h1>Dynamic Resume Builder </h1>
 
 
 
-
-    <form method="post" action="/form.html">
+    <form id="resumeForm" >
         <fieldset>
             <legend>personal Information</legend>
 
@@ -26,16 +26,8 @@
             <input type="tel" name="number" id="number"> <br> <br>
         
 
-            <label id="email" for="email">Email:</label>
+            <label for="email">Email:</label>
             <input type="email" name="email" id="email"> <br> <br>
-
-            <label id="dp" for="profilePicture"> Profile Picture:</label>
-            <input type="file" name="profilePicture">
-             <button  type="submit"> Upload </button>
-            
-
-
-        
         </fieldset>
 
         <fieldset>
@@ -79,15 +71,13 @@
             <legend>Skills</legend>
 
             <label for="skills">Skills</label><br>
-            <textarea  name="skills" id="skills , skillsHide" placeholder="Enter your all skills"></textarea> <br> <br>
-
-            <label for="submitButton"></label>
-            <button type="submit" id="submitButton"> Submit </button>
-
+            <textarea  name="skills" id="skills" placeholder="Enter your all skills"></textarea> <br> <br>
         </fieldset>
-    
 
+        <button type="submit"> Submit </button>
     </form>
+
+    <div id="cvOutput"> </div>
 
 
     <script src="app.js"> 

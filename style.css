@@ -27,3 +27,10 @@ textarea{
     background-color: rgb(202, 248, 233);
     
 }
+
+#cvOutput{
+    border: 2px solid black;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 20px;
+}
